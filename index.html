@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Multipage Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo">WebDev</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Our Website</h1>
+                <p>Creating beautiful, responsive websites with modern technologies</p>
+                <a href="about.html" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <h3>Web Design</h3>
+                        <p>Creating visually appealing and user-friendly interfaces</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Development</h3>
+                        <p>Building robust and scalable web applications</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Deployment</h3>
+                        <p>Ensuring your website is live and accessible worldwide</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider-section">
+            <div class="container">
+                <h2>Project Gallery</h2>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide active">
+                            <img src="images/slider-1.jpg" alt="Project 1">
+                            <div class="slide-content">
+                                <h3>Modern E-commerce</h3>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/slider-2.jpg" alt="Project 2">
+                            <div class="slide-content">
+                                <h3>Portfolio Website</h3>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/slider-3.jpg" alt="Project 3">
+                            <div class="slide-content">
+                                <h3>Corporate Design</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-btn prev">&#10094;</button>
+                    <button class="slider-btn next">&#10095;</button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Multipage Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
